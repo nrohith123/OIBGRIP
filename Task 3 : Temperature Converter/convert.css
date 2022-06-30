@@ -1,0 +1,95 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.whole{
+    
+    height:100vh ;
+    min-width: 280px;
+    display:flex;
+    justify-content:centre;
+    align-items:flex-start;
+    padding-bottom: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: whitesmoke;
+    padding: 10px 20px; 
+    box-shadow: 5px 4px 9px gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+}
+.main button{
+    margin: 25px 0px;
+}
+.another main{
+    padding-top: none;
+}
+.button1{
+    padding:12px 25px;
+    background-color:rgb(44, 170, 90); 
+    color: white;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button2{
+    padding:12px 35px;
+    background-color:#1e72a3;   
+    color: white;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;   
+}
+.main input {
+    padding: 7px 22px;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #d2d2d2;     
+}
+label{
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 7px;
+    color: #2c394b;
+}
+.celsius{
+    padding-top: 15px;
+}
+.celsius input{
+    margin-left: 24px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button1:hover{
+  background-color:transparent;
+  color: black;
+  border: 2px solid black;  
+}
+.button2:hover{
+    background-color: transparent;
+    color:black;
+    border: 1px solid black;
+}
