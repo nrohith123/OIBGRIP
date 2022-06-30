@@ -1,0 +1,43 @@
+#header{
+    padding-left: 30px;
+    font-size: 10px;
+    
+}
+
+.image.img{
+    width:50%;
+    height:50%;
+}
+
+img{
+    height:100px;
+    vertical-align: middle;
+}
+
+p{
+    display: inline-block;
+}
+
+.email{
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.text{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 100px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.button{
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-right: 600px;
+    font-size: 20px;
+    text-align: center;
+}
